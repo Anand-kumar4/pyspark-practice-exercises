@@ -17,3 +17,4 @@ selected_df.write.mode('overwrite').parquet(output_path)
 print("Data written successfully")
 
 spark.stop()
+
